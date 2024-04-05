@@ -13,7 +13,7 @@ export default function ConvexClientProvider({
   children: ReactNode;
 }) {
   return (    
-  <ClerkProvider publishableKey={process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY!}>
+  <ClerkProvider publishableKey={"pk_test_dm9jYWwtcGlyYW5oYS03My5jbGVyay5hY2NvdW50cy5kZXYk"}>
     <ConvexProviderWithClerk client={convex} useAuth={useAuth}>
         {children}
     </ConvexProviderWithClerk>
